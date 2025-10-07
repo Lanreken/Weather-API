@@ -1,5 +1,4 @@
 const axios = require("axios");
-const { api } = require("../../../Class Activities/FINAL_PROJECT/config/cloudinary");
 
 exports.getWeather = async (req, res) => {
   try {
